@@ -4,7 +4,7 @@
 div {
   display: block;
 }
-.pricing_testimonial-quote {
+.testimonial-quote {
   width: 100%;
   max-width: 1000px;
   background-color: #fff;
@@ -16,7 +16,7 @@ div {
   box-shadow: 0 49px 64px rgba(235,247,249,.5);
 }
 
-.pricing_testimonial-left {
+.flex-left {
   width: 100%;
   max-width: 528px;
   grid-column-gap: 24px;
@@ -28,7 +28,7 @@ div {
   display: flex;
 }
 
-.pricing_testimonial-right {
+.flex-right {
   width: 388px;
   height: 388px;
   padding: 12px;
@@ -42,14 +42,14 @@ div {
   line-height: 133%;
 }
 
-.pricing_testimonial-quoter {
+.quoter {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   margin-top: 8px;
   display: flex;
 }
 
-.pricing_testimonial-right {
+.flex-right {
   width: 388px;
   height: 388px;
   padding: 12px;
@@ -78,13 +78,13 @@ img {
   display: inline-block;
 }
 
-.pricing_testimonial-img {
+.testimonial-img {
   width: 48px;
   height: 48px;
   border-radius: 4px;
 }
 
-.pricing_testimonial-color {
+.testimonial-color {
   width: 100%;
   height: 100%;
   background-color: #f6f8ff;
@@ -94,30 +94,20 @@ img {
   display: flex;
 }
 
-.pricing_testimonial-logo {
+.logo {
   max-width: 75%;
 }
 
-.section_testimonial {
-  padding-top: 3.25rem;
-  padding-bottom: 0;
-}
-
-.padding-global.show-overflow {
+.section {
   display: block;
   overflow: visible;
 }
-.padding-global {
-  width: 100%;
-  padding-left: 28px;
-  padding-right: 28px;
-  overflow: hidden;
-}
+
 * {
   box-sizing: border-box;
 }
 
-.pricing_testimonial-wrap {
+.testimonial-wrap {
   background-image: linear-gradient(rgba(165,233,214,.2),rgba(246,254,233,0));
   border-radius: 32px;
   padding: 88px 32px 340px;
